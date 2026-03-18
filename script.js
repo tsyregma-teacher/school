@@ -2,9 +2,9 @@ const rotatingWord = document.getElementById("rotating-word");
 const currentYear = document.getElementById("current-year");
 const scrollProgress = document.getElementById("scroll-progress");
 const revealItems = document.querySelectorAll(".reveal");
-const heroVisual = document.querySelector(".hero-visual");
+const heroVisual = document.querySelector(".hero-stage");
 
-const rotatingWords = ["Practice", "Reading", "Dialogue", "Growth"];
+const rotatingWords = ["Voice", "Reading", "Thought", "Growth"];
 
 if (currentYear) {
   currentYear.textContent = new Date().getFullYear();
